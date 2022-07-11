@@ -5,6 +5,9 @@ button.btn__green{
     color: #fff;
     background-color: #1ABC9C;
 }
+strong.str__green{
+    color: #1ABC9C;
+}
 textarea{
     width: 100%;
 }
@@ -29,4 +32,13 @@ textarea{
 .section.about{
     color: #fff;
     background-color: #1ABC9C;
+}
+.section.footer-info{
+    color: #fff;
+    background-color: #3A546D;
+}
+.section.footer-copy{
+    padding: 2rem;
+    color: #fff;
+    background-color: #2C3E50;
 }
