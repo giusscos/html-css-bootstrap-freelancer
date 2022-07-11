@@ -1,6 +1,12 @@
+button.btn__white{
+    color: #fff;
+}
 .main-header{
     color: #fff;
     background-color: #2C3E50;
+}
+.section{
+    padding: 4rem 0;
 }
 .section.jumbo{
     color: #fff;
@@ -12,4 +18,8 @@
     border-radius: 5px;
     display: inline-block;
     background-color: currentColor;
+}
+.section.about{
+    color: #fff;
+    background-color: #1ABC9C;
 }
