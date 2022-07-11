@@ -1,6 +1,13 @@
 button.btn__white{
     color: #fff;
 }
+button.btn__green{
+    color: #fff;
+    background-color: #1ABC9C;
+}
+textarea{
+    width: 100%;
+}
 .main-header{
     color: #fff;
     background-color: #2C3E50;
