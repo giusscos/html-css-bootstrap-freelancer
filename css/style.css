@@ -1,44 +1,48 @@
-button.btn__white{
-    color: #fff;
+/* Custom Color and Size */
+:root{
+    --bg-white: #fff;
+    --bg-dark: #3A546D;
+    --bg-darker: #2C3E50;
+    --bg-accent: #1ABC9C;
 }
-button.btn__green{
-    color: #fff;
-    background-color: #1ABC9C;
+.bg_accent{
+    background-color: var(--bg-accent);
 }
-strong.str__green{
-    color: #1ABC9C;
+.bg_dark{
+    background-color: var(--bg-dark);
 }
-textarea{
-    width: 100%;
+.bg_darker{
+    background-color: var(--bg-darker);
 }
-.main-header{
-    color: #fff;
-    background-color: #2C3E50;
+.bg_white{
+    background-color: var(--bg-white);
 }
-.section{
+.text_accent{
+    color: var(--bg-accent);
+}
+.text_dark{
+    color: var(--bg-darker);
+}
+.py-7{
     padding: 4rem 0;
 }
-.section.jumbo{
-    color: #fff;
-    background-color: #1ABC9C;
+.w_20{
+    width: 20%;
 }
+.display-7{
+    font-size: 2rem;
+}
+/* Components */
 .line{
-    width: 170px;
     height: 5px;
     border-radius: 5px;
     display: inline-block;
     background-color: currentColor;
 }
-.section.about{
-    color: #fff;
-    background-color: #1ABC9C;
+textarea{
+    width: 100%;
 }
-.section.footer-info{
-    color: #fff;
-    background-color: #3A546D;
-}
-.section.footer-copy{
-    padding: 2rem;
-    color: #fff;
-    background-color: #2C3E50;
+/* Body */
+body{
+    min-width: 450px;
 }

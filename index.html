@@ -12,140 +12,139 @@
     </title>
 </head>
 <body>
-    <header class="main-header">
-        <div class="container py-4">
-            <div class="row align-items-center">
-                <div class="col">
-                    <div class="row nav-logo text-uppercase fs-5 fw-bold">
-                        Start Bootstrap
-                    </div>
-                </div>
-                <nav class="main-nav d-flex col justify-content-end align-items-center">
-                    <ul class="row justify-content-end align-items-center text-uppercase m-0">
-                        <li class="col list-inline-item">
-                            <a class="text-reset text-decoration-none fw-bold fs-6" href="#">Portfolio</a>
-                        </li>
-                        <li class="col list-inline-item">
-                            <a class="text-reset text-decoration-none fw-bold fs-6" href="#">About</a>
-                        </li>
-                        <li class="col list-inline-item">
-                            <a class="text-reset text-decoration-none fw-bold fs-6" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div><!-- End Row -->
-        </div><!-- End Container -->
+    <header class="bg_dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+              <a class="navbar-brand text-uppercase fw-bold" href="#">
+                Start Bootstrap
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"display-7 ></3pan>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+                  <li class="nav-item">
+                    <a class="nav-link text-white fw-bold" href="#">
+                        Portfolio
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fw-bold" href="#">
+                        About
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fw-bold" href="#">
+                        Contact
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <section class="section jumbo">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col justify-content-center align-items-center">   
-                        <div class="mx-auto" style="max-width: 230px;">
-                            <img src="./img/avatar.svg" alt="avatar">
-                        </div>
-                        <div class="text-center fw-bold text-uppercase">
-                            <h1 class="display-3 fw-bold">
-                                Start Bootstrap
-                            </h1>
-                            <div class="separe py-4">
-                                <span class="line"></span>
-                                <span class="icon px-5">
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                                <span class="line"></span>
-                            </div>
-                            <ul class="p-0">
-                                <li class="list-inline-item">Graphic Artist</li>
-                                <li class="list-inline-item">Web Designer</li>
-                                <li class="list-inline-item">Illustrator</li>
-                            </ul>
-                        </div>
+        <section class="section jumbo bg_accent text-white py-7">
+            <div class="container"> 
+                <div class="mx-auto" style="max-width: 230px;">
+                    <img src="./img/avatar.svg" alt="avatar">
+                </div>
+                <div class="text-center fw-bold text-uppercase">
+                    <h1 class="display-3 fw-bold">
+                        Start Bootstrap
+                    </h1>
+                    <div class="separe d-flex justify-content-center align-items-center py-4">
+                        <span class="line w_20"></span>
+                        <span class="icon display-7 px-3">
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="line w_20"></span>
                     </div>
-                </div><!-- End Row -->
+                    <ul class="p-0 m-0">
+                        <li class="list-inline-item m-0">
+                            Graphic Artist
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <span>-</span>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            Web Designer
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <span>-</span>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            Illustrator
+                        </li>
+                    </ul>
+                </div>
             </div><!-- End Container -->
         </section><!-- End Jumbo -->
-        <section class="section portfolio">
+        <section class="section portfolio bg_white text_dark py-7">
             <div class="container">
                 <div class="row">
                     <div class="col text-center">
                         <h2 class="text-uppercase fw-bold text-center">
                             Portfolio
                         </h2>
-                        <div class="separe py-4">
-                            <span class="line"></span>
-                            <span class="icon px-5">
+                        <div class="separe d-flex justify-content-center align-items-center py-4">
+                            <span class="line w_20"></span>
+                            <span class="icon display-7 px-3">
                                 <i class="fa-solid fa-star"></i>
                             </span>
-                            <span class="line"></span>
-                        </div>  
+                            <span class="line w_20"></span>
+                        </div>
                     </div>
                 </div><!-- End Row -->
-                <div class="row gy-4">
-                    <div class="d-flex col-4 align-items-center">
-                        <div class="card"> 
-                            <img class="rounded-3" src="./img/cabin.png" alt="card">
-                        </div>
+                <div class="row row-cols-1 row-cols-xl-2 row-cols-xxl-3 g-4">
+                    <div class="card border-0"> 
+                        <img class="rounded-3" src="./img/cabin.png" alt="card">
                     </div>
-                    <div class="d-flex col-4 align-items-center">
-                        <div class="card"> 
-                            <img class="rounded-3" src="./img/cake.png" alt="card">
-                        </div>
+                    <div class="card border-0"> 
+                        <img class="rounded-3" src="./img/cake.png" alt="card">
                     </div>
-                    <div class="d-flex col-4 align-items-center">
-                        <div class="card"> 
-                            <img class="rounded-3" src="./img/circus.png" alt="card">
-                        </div>
+                    <div class="card border-0"> 
+                        <img class="rounded-3" src="./img/circus.png" alt="card">
                     </div>
-                    <div class="d-flex col-4 align-items-center">
-                        <div class="card"> 
-                            <img class="rounded-3" src="./img/game.png" alt="card">
-                        </div>
+                    <div class="card border-0"> 
+                        <img class="rounded-3" src="./img/game.png" alt="card">
                     </div>
-                    <div class="d-flex col-4 align-items-center">
-                        <div class="card"> 
-                            <img class="rounded-3" src="./img/safe.png" alt="card">
-                        </div>
+                    <div class="card border-0"> 
+                        <img class="rounded-3" src="./img/safe.png" alt="card">
                     </div>
-                    <div class="d-flex col-4 align-items-center">
-                        <div class="card"> 
-                            <img class="rounded-3" src="./img/submarine.png" alt="card">
-                        </div>
+                    <div class="card border-0"> 
+                        <img class="rounded-3" src="./img/submarine.png" alt="card">
                     </div>
                 </div><!-- End Row -->
             </div><!-- End Container -->
         </section><!-- End Portfolio -->
-        <section class="section about">
+        <section class="section about bg_accent text-white py-7">
             <div class="container">
                 <div class="row">
                     <div class="col text-center">
                         <h2 class="text-uppercase fw-bold text-center">
                             About
                         </h2>
-                        <div class="separe py-4">
-                            <span class="line"></span>
-                            <span class="icon px-5">
+                        <div class="separe d-flex justify-content-center align-items-center py-4">
+                            <span class="line w_20"></span>
+                            <span class="icon display-7 px-3">
                                 <i class="fa-solid fa-star"></i>
                             </span>
-                            <span class="line"></span>
-                        </div>  
+                            <span class="line w_20"></span>
+                        </div>
                     </div>
                 </div><!-- End Row -->
-                <div class="row px-5">
-                    <div class="col">
-                        <p class="ps-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio animi debitis voluptatem eum libero laudantium ipsam ut repellat. Maxime delectus rerum ipsam beatae dolore cupiditate pariatur magni aut, id magnam.
-                        </p>
-                    </div>
-                    <div class="col">
-                        <p class="pe-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio animi debitis voluptatem eum libero laudantium ipsam ut repellat. Maxime delectus rerum ipsam beatae dolore cupiditate pariatur magni aut, id magnam.
-                        </p>
-                    </div>
+                <div class="row row-cols-1 row-cols-xl-2 px-5">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio animi debitis voluptatem eum libero laudantium ipsam ut repellat. Maxime delectus rerum ipsam beatae dolore cupiditate pariatur magni aut, id magnam.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio animi debitis voluptatem eum libero laudantium ipsam ut repellat. Maxime delectus rerum ipsam beatae dolore cupiditate pariatur magni aut, id magnam.
+                    </p>
                 </div><!-- End Row -->
                 <div class="row pt-4">
                     <div class="col text-center">
-                        <button type="button" class="btn border btn__white">
+                        <button type="button" class="btn border text-white">
                             <i class="fa-solid fa-download"></i>
                             Download
                         </button>
@@ -153,20 +152,20 @@
                 </div><!-- End Row -->
             </div><!-- End Container-->
         </section><!-- End About -->
-        <section class="section form">
+        <section class="section form py-7">
             <div class="container">
                 <div class="row">
                     <div class="col text-center">
                         <h2 class="text-uppercase fw-bold text-center">
                             Contact me
                         </h2>
-                        <div class="separe py-4">
-                            <span class="line"></span>
-                            <span class="icon px-5">
+                        <div class="separe d-flex justify-content-center align-items-center py-4">
+                            <span class="line w_20"></span>
+                            <span class="icon display-7 px-3">
                                 <i class="fa-solid fa-star"></i>
                             </span>
-                            <span class="line"></span>
-                        </div>  
+                            <span class="line w_20"></span>
+                        </div>
                     </div>
                 </div><!-- End Row -->
                 <div class="row px-5">
@@ -193,7 +192,7 @@
                             <textarea class="d-block border-0" style="height: 100px;"></textarea>
                         </div>
                         <div class="submit py-4">
-                            <button type="button" class="btn btn__green">
+                            <button type="button" class="btn bg_accent text-white">
                                 Send
                             </button>
                         </div>
@@ -203,10 +202,10 @@
         </section><!-- End Form -->
     </main>
     <footer>
-        <div class="section footer-info">
+        <div class="footer-info bg_dark text-white py-7">
             <div class="container">
-                <div class="row text-center">
-                    <div class="col-4">
+                <div class="row row-cols-1 row-cols-xl-3 text-center g-3">
+                    <div>
                         <h3 class="text-uppercase fw-normal">
                             Location
                         </h3>
@@ -214,7 +213,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing.
                         </address>
                     </div>
-                    <div class="col-4">
+                    <div>
                         <h3 class="text-uppercase fw-normal">
                             Around The Web
                         </h3>
@@ -241,18 +240,18 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-4">
+                    <div>
                         <h3 class="text-uppercase fw-normal">
                             About Freelancer
                         </h3>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. <strong class="str__green">Amet tempora</strong> necessitatibus eligendi fuga totam impedit ullam asperiores, repudiandae sunt voluptas!
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. <strong class="text_accent">Amet tempora</strong> necessitatibus eligendi fuga totam impedit ullam asperiores, repudiandae sunt voluptas!
                         </p>
                     </div>
                 </div><!-- End Row -->
             </div><!-- End Container -->
         </div><!-- End Footer info -->
-        <div class="section footer-copy">
+        <div class="footer-copy bg_darker text-white py-7">
             <div class="container">
                 <div class="row">
                     <div class="col text-center">
